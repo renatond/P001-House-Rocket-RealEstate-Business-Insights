@@ -7,7 +7,6 @@ All information below is fictional.
 * Perform exploratory data analysis on properties available on dataset.
 * Determine which properties should be purchased according to business criteria.
 * Develop an online [dashboard](https://house-rocket-analytics-rnd.herokuapp.com/) that can be acessed by the CEO from a mobile or computer.
-<br>
 
 ## 1. Business Problem
 House Rocket business model consists of purchasing and reselling properties through a digital platform. The data scientist is in charge to develop a online dashboard so that the company's CEO can have an overview of properties available to became part of House Rocket portfolio in King County (USA).<br>
