@@ -1,8 +1,5 @@
 # House Rocket - Real Estate Business Insights
 
-<i>Se quiser ler sobre esse projeto em português, [clique aqui]().</i>
-
-
 This repository contains codes for the porfolio analysis of a real estate company. <br>
 All information below is fictional.
 
@@ -17,40 +14,34 @@ The objetives of this project are:
 House Rocket business model consists of purchasing and reselling properties through a digital platform. The data scientist is in charge to develop a online dashboard so that the company's CEO can have an overview of properties available to became part of House Rocket portfolio in King County (USA).<br>
 
 The [dashboard](https://house-rocket-analytics-rnd.herokuapp.com/) must contain:
-   * Which properties the company should buy.
+
+   * A table view with attributes filters. 
    * A map view with properties available.
-   * A table view with attributes filters.
-   * Expected profit of each property.<br><br>
-
-
-**_Dashboard screenshot exemple:_**
-
-<img src="https://user-images.githubusercontent.com/77681284/152690550-fc5b1c2e-6cf6-4bb5-ae7d-0b19b936ac0d.png"/>
-
-
-<!-- <img src="https://user-images.githubusercontent.com/77681284/117519523-439a7900-af7a-11eb-8cf0-4900c78737e4.png" alt="image" width="200" align="right"/>
-<img src="https://user-images.githubusercontent.com/77681284/152690450-089c6833-edbe-4eb2-bfa6-261973611e3a.png" alt="dashboard screenshot" width="300"  align="right"/> -->
+   * A visual distribution of properties by key attributes.
+   * The sugested investment relation.
+   * Expected investment outcome.<br><br>
 
 ## 2. Business Results
-There are 21,436 available properties. Based on business criteria, 10,707 should be bought by House Rocket resulting on a US$1,2B profit.<br>
-Maximum Value Invested: US$4,163,721,410.00<br>
-Maximum Value Returned: US$5,412,837,833.00<br>
-Maximum Expected Profit: US$1,249,116,423.00<br>
+There are 21,436 available properties. Based on business criteria, 310 selected properties should be bought by House Rocket resulting on a US$60M profit.<br>
+Necessary Investment: US$131,440,127.00<br>
+Estimated Revenue: US$192,282,831.65<br>
+Estimated Profit: US$60,842,704.65<br>
+Estimated Margin: 31.46%
 
-This results on a 30.0 % gross revenue.
 <br><br>
 
 ## 3. Business Assumptions
 * The data available is only from May 2014 to May 2015.
-* Properties with bedrooms disproportional with interior living squarefoot were deleted, assuming it was a input error.
 * Seasons of the year:<br>
    * Spring starts on March 21st<br>
    * Summer starts on June 21st<br>
    * Fall starts on September 23rd<br>
    * Winter starts on December 21st<br>
 * Business criteria to determine whether a property should be bought are:
-   * Property must have a 'condition' equals or bigger than 3.
-   * Property price must be below or equal the median price on the region (zipcode)
+    * Propertie price is bellow regional median.  
+    * Propertie condition is above regional median.  
+    * Propertie living area is above regional median.  
+    * Propertie living area is above regional median.
 
 <details><summary>The variables on original dataset goes as follows:</summary><br>
 
@@ -80,22 +71,6 @@ Variable | Definition
 </details>
 <details><summary>Variables created during the project development goes as follow:</summary><br>
 
-Variable | Definition
------------- | -------------
-| decision | whether a property should be bought |
-| median_price_zipcode | median price of zipcode region |
-| selling_price_suggestion | 30% more on buying price, if property should be bought |
-| expected_profit | difference between buying price and selling price suggestion  |
-| dist_fromlake | distance from the center of Evergreen Point Floating Bridge |
-| season | season property became available |
-| med_autumn | median price from properties available during autumn  |
-| med_spring | median price from properties available during spring |
-| med_summer | median price from properties available during summer |
-| med_winter | median price from properties available during winter |
-| season_to_sell | in which season property should be sold |
-</details>
-<br>
-
 ## 4. Solution Strategy
 1. Understanding the business model
 2. Understanding the business problem
@@ -111,23 +86,20 @@ Variable | Definition
 ## 5. Top 3 Data Insights
 1. The number of properties built with basements decreased after the 80s.
 2. Almost 60% of the properties became available during summer/spring.
-3. Properties selected to be bought in a 15km radius from lake correspond to 60% of expected profit.
 <br>
 
 ## 6. Conclusion
-The objective of this project was to create a online dashboard to House Rocket's CEO. Deploying the dashboard on Heroku platforms provided the CEO acess from anywhere facilitating data visualization and business decisions.
+The objective of this project was to create a online dashboard for the House Rocket's CEO. Deploying the dashboard on Heroku platforms provided the CEO acess from anywhere, facilitating data visualization and business decisions.
 <br><br>
 
 ## 7. Next Steps
 * Determine which season of the year would be the best to execute a sale.
-* Get more address data to fill NAs.
-* Expand this methodology to other regions that House Rocket operates.
+* Implement a Machine Learning algorithim to define selling proces and increase revenue.
 <br>
 
 ---
 ## References:
 * Dataset House Sales in King County (USA) from [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
 * Variables meaning on [Kaggle discussion](https://www.kaggle.com/harlfoxem/housesalesprediction/discussion/207885)
-* <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 * Python from Zero to DS lessons on [Youtube](https://www.youtube.com/watch?v=1xXK_z9M6yk&list=PLZlkyCIi8bMprZgBsFopRQMG_Kj1IA1WG&ab_channel=SejaUmDataScientist)
 * Blog [Seja um Data Scientist](https://sejaumdatascientist.com/os-5-projetos-de-data-science-que-fara-o-recrutador-olhar-para-voce/)
