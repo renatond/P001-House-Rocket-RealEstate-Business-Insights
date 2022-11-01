@@ -66,7 +66,6 @@ Variable | Definition
 |sqft_living15 | The square footage of interior housing living space for the nearest 15 neighbors|
 |sqft_lot15 | The square footage of the land lots of the nearest 15 neighbors|
 </details>
-<details><summary>Variables created during the project development goes as follow:</summary><br>
 
 ## 4. Solution Strategy
 1. Understanding the business model
@@ -80,9 +79,10 @@ Variable | Definition
 10. Dashboard deploy on [Heroku](https://house-rocket-analytics-rnd.herokuapp.com/)
 <br>
 
-## 5. Top 3 Data Insights
+## 5. Data Insights
 1. The number of properties built with basements decreased after the 80s.
 2. Almost 60% of the properties became available during summer/spring.
+3. The number of bathrooms have a greater inpact on price than the number of bedrooms (0.52 correlation over 0.31)
 <br>
 
 ## 6. Conclusion
