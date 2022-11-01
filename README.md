@@ -82,7 +82,7 @@ Variable | Definition
 ## 5. Data Insights
 1. The number of properties built with basements decreased after the 80s.
 2. Almost 60% of the properties became available during summer/spring.
-3. The number of bathrooms have a greater inpact on price than the number of bedrooms (0.52 correlation over 0.31)
+3. The number of bathrooms have a greater impact on price than the number of bedrooms (0.52 correlation over 0.31)
 <br>
 
 ## 6. Conclusion
@@ -91,7 +91,7 @@ The objective of this project was to create a online dashboard for the House Roc
 
 ## 7. Next Steps
 * Determine which season of the year would be the best to execute a sale.
-* Implement a Machine Learning algorithim to define selling proces and increase revenue.
+* Implement a Machine Learning algorithim to define selling prices and increase revenue.
 <br>
 
 ---
