@@ -587,7 +587,6 @@ if __name__ == '__main__':
     # crete new attributes
     create_new_attributes(data)
     # crete investment dataset
-    create_investment_dataset(data)
     investment_dataset = create_investment_dataset(data)
 
     # Measures
@@ -603,7 +602,6 @@ if __name__ == '__main__':
     # draw maps and dashboard
     data_overview(df, filtered_data, f_zipcodes)
     temporal_analysis(df, filtered_data)
-    properties_attributes(df, filtered_data)
     properties_attributes(df, filtered_data)
     investment_recommendations(investment_dataset)
 
