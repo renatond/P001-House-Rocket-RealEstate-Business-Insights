@@ -3,8 +3,7 @@
 This repository contains codes for the porfolio analysis of a real estate company. <br>
 All information below is fictional.
 
-#### Project 001 - Real Estate Insights
-The objetives of this project are:
+## Objectives
 * Perform exploratory data analysis on properties available on dataset.
 * Determine which properties should be purchased according to business criteria.
 * Develop an online [dashboard](https://house-rocket-analytics-rnd.herokuapp.com/) that can be acessed by the CEO from a mobile or computer.
@@ -27,8 +26,6 @@ Necessary Investment: US$131,440,127.00<br>
 Estimated Revenue: US$192,282,831.65<br>
 Estimated Profit: US$60,842,704.65<br>
 Estimated Margin: 31.46%
-
-<br><br>
 
 ## 3. Business Assumptions
 * The data available is only from May 2014 to May 2015.
